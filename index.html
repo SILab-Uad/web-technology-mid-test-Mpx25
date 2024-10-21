@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Password Generator</h1>
@@ -27,18 +29,23 @@
         <label>
             <input type="checkbox" id="includeSpecialChars"> Include Special Characters
         </label><br>
-        
+
         <!-- TODO: Create a button to generate the password -->
-        <button id="generateBtn">Generate Password</button>
-        
+        <div class="button-continer">
+            <button id="generateBtn">Generate Password</button>
+            <button id="copyBtn">Copy to Clipboard</button>
+        </div>
         <!-- TODO: Create a text field to display the generated password -->
-        <p id="passwordOutput"></p>
+        <div class="password">
+            <p id="passwordOutput"></p>
+        </div>
 
         <!-- BONUS: Add a "Copy to Clipboard" button -->
-        <button id="copyBtn">Copy to Clipboard</button>
+
     </div>
 
     <script src="script.js"></script>
     <script src="dom.js"></script>
 </body>
+
 </html>
