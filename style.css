@@ -75,9 +75,7 @@ input[type="checkbox"]{
     border: none;
     border-radius: 5px;
     box-shadow: 0 3px 10px #c8c7c7;
-    cursor: pointer
-    
-    
+    cursor: pointer;
 }
 
 #passwordOutput{
